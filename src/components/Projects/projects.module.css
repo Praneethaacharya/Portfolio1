@@ -1,0 +1,44 @@
+@import "../../vars.css";
+
+
+.title{
+    /* font-size: 50px; */
+    color: var(--color-text);
+    margin-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 25px;
+    font-size: 35px;
+    letter-spacing: 1.75px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.projects{
+    background-color: var(--color-dark);
+    margin-top: -10px;
+}
+
+.projectCards{
+    /* list-style: none; */
+    display: flex;
+    /* font-size: 30px; */
+    /* letter-spacing: 1.75px; */
+    /* font-weight: 700; */
+    flex-direction: row;
+    margin-top: 14px;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 830px){
+    .projectCards{
+        /* list-style: none; */
+        display: flex;
+        /* font-size: 30px; */
+        /* letter-spacing: 1.75px; */
+        /* font-weight: 700; */
+        flex-direction: column;
+        margin-top: 14px;
+        margin: 40px;
+    }
+}

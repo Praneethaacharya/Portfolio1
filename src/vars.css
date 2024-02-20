@@ -1,0 +1,16 @@
+:root {
+    /*colors*/
+    --color-text: #66422D;
+    --color-primary: #966045;
+    --color-secondary: #B26E4B;
+    --color-tertiary: #ba8266;
+    --color-dark: #C7976F;
+    --color-bg: #EBD2BC;
+
+    /*fonts*/
+    --font-robot: "Poiret One";
+}
+
+/*#F08D7E | #EFA18A | #E2BAB1 | #DDA6B9 | #ACAEC5. */
+/* #AA9D94 | #BBADA1 | #D2C1B3 | #E7D7CB | #F7EDE2 */
+/* #66422D | #966045 | #B26E4B | #C7976F | #EBD2BC */

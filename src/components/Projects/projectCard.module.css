@@ -1,0 +1,160 @@
+@import "../../vars.css";
+
+.projectCard{
+    width: auto;
+    background-color:var(--color-primary);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+.projectImage{
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+
+.projectTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: var(--color-bg);
+    letter-spacing: 1.75px;
+}
+
+.projectDescription{
+    font-size: 20px;
+    color: var(--color-bg);
+    align-items: center;
+    height: 130px;
+}
+
+.projectSkills{
+    padding-top: 20px;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-self: baseline;
+    gap: 15px;
+    
+}
+
+.projectSkills2{
+    background-color: var(--color-text);
+    color: var(--color-bg);
+    margin: 5px;
+    padding: 4px;    
+    border-radius: 5px;
+}
+
+.projectLinks{
+    padding-top:  20px;
+    font-size: 20px;
+    display: flex;
+    color: var(--color-bg);
+    flex-direction: column;
+}
+
+.projectLink1{
+    color:  var(--color-text) !important;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.projectLink2{
+    color:  var(--color-text) !important;
+    text-decoration: none;
+    font-size: 20px;    
+}
+
+.githubImg{
+    width: 10%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 830px) {
+    .projectCard{
+        width: auto;
+        background-color:var(--color-primary);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        width: 500px;
+    }
+    
+    .projectImage{
+        width: 100%;
+        height: 250px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 40px;
+    }
+    
+    .projectTitle{
+        padding-top: 10px;
+        padding-bottom: 5px;
+        font-size: 30px;
+        color: var(--color-bg);
+        letter-spacing: 1.75px;
+    }
+    
+    .projectDescription{
+        font-size: 20px;
+        color: var(--color-bg);
+        align-items: center;
+        height: 130px;
+    }
+    
+    .projectSkills{
+        padding-top: 10px;
+        font-size: 18px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        align-self: baseline;
+        gap: 15px;
+        
+    }
+    
+    .projectSkills2{
+        background-color: var(--color-text);
+        color: var(--color-bg);
+        margin: 5px;
+        padding: 2px;    
+        border-radius: 5px;
+    }
+    
+    .projectLinks{
+        padding-top: 2px;
+        font-size: 20px;
+        display: flex;
+        color: var(--color-bg);
+        flex-direction: column;
+    }
+    
+    .projectLink1{
+        color:  var(--color-text) !important;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .projectLink2{
+        color:  var(--color-text) !important;
+        text-decoration: none;
+        font-size: 20px;    
+    }
+    
+    .githubImg{
+        width: 10%;
+        height: auto;
+    }
+}
+
+

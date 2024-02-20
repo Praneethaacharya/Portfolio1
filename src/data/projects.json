@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Snapgram",
+      "imageSrc": "projects/snapgram.png",
+      "description": "Developed a social app facilitating user sign-up, photo sharing, exploration of shared content, and engagement features including liking and saving. Leveraged dynamic APIs with Appwrite for seamless data management.",
+      "skills": [ "ReactJS", "Appwrite", "API", "NextJS", "Tailwind", "Typescript"],
+      "demo": "https://social-app-vchy.vercel.app/",
+      "source": "https://github.com/Praneethaacharya/SocialApp"
+    },
+    {
+      "title": "Pcube",
+      "imageSrc": "projects/Pcube.png",
+      "description": "E-commerce website where users can login and post the products for sale and others can request the product and set their price for that product and buy it.",
+      "skills": ["Django", "HTML", "CSS", "Javascript", "MySQL", "json-API"],
+      "demo": "https://pcube-marketing.herokuapp.com/",
+      "source": "https://github.com/Praneethaacharya/PCUBE"
+    },
+    {
+      "title": "Temple Database Counter",
+      "imageSrc": "projects/temple.png",
+      "description": "It is to maintain all the details of the entries in an ordered manner, save it in the Database and provide information.",
+      "skills": ["SQLite3", "Mysql", "Python", "Flask", "HTML", "CSS", "Javascript", "Bootstrap"],
+      "source": "https://github.com/Praneethaacharya/Temple_Database_Project"
+    }
+  ]
+  
